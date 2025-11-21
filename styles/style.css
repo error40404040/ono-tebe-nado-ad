@@ -3,7 +3,7 @@
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   box-sizing: border-box;
-  padding: 90px 50px 96px 50px;
+  padding: 92px 50px 92px 50px;
 }
 
 .header_menu {
@@ -30,7 +30,7 @@
 }
 
 .menu-link_active {
-  text-decoration-color: #fff;
+  text-decoration: none;
 }
 
 .header_logo {
@@ -53,7 +53,6 @@
 }
 
 .header_address {
-  max-width: 240px;
   justify-self: end;
 }
 
@@ -96,7 +95,7 @@
   line-height: 129px;
   letter-spacing: 0.3em;
   text-transform: uppercase;
-  z-index: 2;
+  z-index: 1;
   position: relative;
 }
 
@@ -123,7 +122,7 @@
   justify-content: space-between;
   padding: 0 50px 50px 50px;
   position: relative;
-  z-index: 2;
+  z-index: 1;
 }
 
 .cover_description-text {
@@ -183,7 +182,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 25px;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
   list-style-type: none;
 }
 
